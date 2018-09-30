@@ -17,8 +17,6 @@ div {
   width: 50px;
   position: absolute;
 }
-/*nth-child looking for parent of selector and search for match */
-
 /* middle left div */
 .inner:nth-child(1) {
   top:  120px;
@@ -52,13 +50,6 @@ div {
   left: 50%;
   transform: translate(-50%, -50%)
 }
-/* div:nth-last-child(4) {
-  position: absolute;
-  bottom: 0;
-  border: 1px solid black;
-  height: 50px;
-  width: 50px;
-} */
 /* DOWN DIV - triggered element */
 .down {
   position: absolute;
@@ -67,6 +58,7 @@ div {
   height: 50px;
   width: 50px;
 }
+/* ANIMATIONS */
 .flyDown {
   position: absolute;
   bottom: 0;

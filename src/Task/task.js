@@ -27,7 +27,7 @@ export default class ToggleDiv extends React.Component {
             this.setState({className: 'flyDown'});
         }
     }
-
+    //render div to the DOM
     render() {
         return (
             <div className={this.state.className} onClick={this.changeState}> Down </div>
